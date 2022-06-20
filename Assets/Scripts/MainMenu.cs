@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     void Update() {
         if (Input.GetKeyDown(KeyCode.Return)) {
-            SceneManager.LoadScene("Main");
+            SceneManager.LoadScene("yaba");
         } 
     }
 }
