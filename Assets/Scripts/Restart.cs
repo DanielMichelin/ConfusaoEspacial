@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameOver : MonoBehaviour {
+public class Restart : MonoBehaviour {
 
     void Update() {
 		if (Input.GetKeyDown(KeyCode.Return)) {
-			SceneManager.UnloadSceneAsync ("Main");
-			SceneManager.LoadScene("yaba2");
+			SceneManager.UnloadSceneAsync ("Main2");
+			SceneManager.LoadScene("Menu");
 		} 
     }
 }
