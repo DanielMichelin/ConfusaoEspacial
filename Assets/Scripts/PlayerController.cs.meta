@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 7d23e223f55adcd468a4de03cc106feb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - upEffect: {instanceID: 0}
+  - downEffect: {instanceID: 0}
+  - gameOverMenu: {instanceID: 0}
+  - gameOverSound: {instanceID: 0}
+  - pauseMenu: {instanceID: 0}
+  - playerAnim: {instanceID: 0}
+  - healthDisplay: {instanceID: 0}
+  - scoreDisplay: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
