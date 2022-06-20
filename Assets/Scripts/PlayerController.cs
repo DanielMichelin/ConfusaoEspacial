@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
 
     public TextMeshProUGUI healthDisplay;
     public TextMeshProUGUI scoreDisplay;
+    public TextMeshProUGUI highscoreDisplay;
 
     private Vector2 targetPos;
     public float yIncrement;
@@ -28,6 +29,7 @@ public class PlayerController : MonoBehaviour
     public int health;
     public float score;
     public float AstronautaScore = 0;
+    public float highscore;
 
     public float timeElapsed = 0;
 
@@ -53,13 +55,17 @@ public class PlayerController : MonoBehaviour
         }
 
 		// Defina o texto da IU de vida para o valor atual do jogador
-        healthDisplay.text = "Vida: " + health.ToString();
+        healthDisplay.text = "Vidas: " + health.ToString();
 
 		// Definir pontuação para o tempo decorrido * 100
 		score = ((int)(timeElapsed * 100)) + AstronautaScore;
         scoreDisplay.text = "Pontuação: " + score.ToString();
 
-        // Flechina pra cima ou W para ir pra cima
+        //Atualiza a Pontuacao Máxima quando o jogador supera a pontuacao anterior
+        highscoreDisplay.text=$"Pontuação Máxima: {PlayerPrefs.GetFloat("highscore",0)}";
+        CheckHighScore();
+
+        // Flechinha pra cima ou W para ir pra cima
         if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
             && transform.position.y + yIncrement <= maxHeight
             && validY.Contains(transform.position.y)) {
@@ -84,4 +90,13 @@ public class PlayerController : MonoBehaviour
             timeElapsed += Time.deltaTime;
         }
     }
+    void CheckHighScore(){
+
+        if(score > PlayerPrefs.GetFloat("highscore", 0)){
+            
+            PlayerPrefs.SetFloat("highscore", score);
+        }
+    }
+
+    
 }
