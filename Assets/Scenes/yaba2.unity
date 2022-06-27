@@ -296,7 +296,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\n\n\n\n\n\tAjude o extraterrestre a pilotar sua nave e captirar somente
+  m_text: "\n\n\n\n\n\n\tAjude o extraterrestre a pilotar sua nave e capturar somente
     comidas saud\xE1veis, evite doces, refrigerantes etc."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

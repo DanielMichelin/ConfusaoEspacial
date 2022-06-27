@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: fa45ea30102d5f04baf71b4d0217a68e
+  - enabled: 1
+    path: Assets/Scenes/Main2.unity
+    guid: 77771fd9c7d58fc4691190ba29dc9ee1
+  - enabled: 1
+    path: Assets/Scenes/yaba2.unity
+    guid: 6d99890798ecb4d479f30fc4a114faa5
+  - enabled: 1
+    path: Assets/Scenes/yaba.unity
+    guid: 1a53288195b837f41a864312a8a2fd3f
   m_configObjects: {}
