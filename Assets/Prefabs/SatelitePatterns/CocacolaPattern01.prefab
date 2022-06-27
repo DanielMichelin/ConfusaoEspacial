@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 1452878899764097813}
   - component: {fileID: 114539146515800566}
   m_Layer: 0
-  m_Name: CocacolaPattern01
+  m_Name: CocaColaPattern01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

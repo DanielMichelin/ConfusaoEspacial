@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AstronautaSounds:
-  - {fileID: 1475768434598440898}
+  - {fileID: 7938467132752011464, guid: e3164a06e9a55a445a6f9a3813d2b91f, type: 3}
   effect: {fileID: 487069079739176333, guid: 88f1c060c42af6341941d8a7aa13025f, type: 3}
   speed: 7
   speedMultiplierCoefficient: 0.025
